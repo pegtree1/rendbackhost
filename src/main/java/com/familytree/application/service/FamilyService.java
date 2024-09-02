@@ -39,6 +39,7 @@ public class FamilyService {
         member.setWhatsappNumber(newMember.getWhatsappNumber());
         member.setAchievements(newMember.getAchievements());
         member.setProfession(newMember.getProfession());
+        member.setUNID(newMember.getUNID());
         if (newMember.getPid() == null) {
             List<Integer> emptyList = new ArrayList<>();
             member.setPids(emptyList);
@@ -75,6 +76,7 @@ public class FamilyService {
         member.setWhatsappNumber(newMember.getWhatsappNumber());
         member.setAchievements(newMember.getAchievements());
         member.setProfession(newMember.getProfession());
+        member.setUNID(newMember.getUNID());
         if (newMember.getPid() == null) {
             List<Integer> emptyList = new ArrayList<>();
             member.setPids(emptyList);

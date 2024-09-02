@@ -44,6 +44,8 @@ public class FamilyMemberDto {
 
     private String profession;
 
+    private Integer UNID;
+
 
 
 }
